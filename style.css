@@ -1,0 +1,73 @@
+body{
+    background-color: white;
+    margin: 0 ;
+    padding: 0; 
+
+}
+
+header{
+    background-color: green;
+    color:#05386B;
+    padding:1rem;
+}
+
+
+.inline-bloc{
+     justify-content: space-between;
+     display:flex;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+}
+img{
+    width:100%;
+    height:auto;
+}
+
+nav ul{
+    display:flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    padding:0 1rem;
+}
+
+section, footer{
+    max-width:768px;
+    margin:0 auto;
+}
+.grid{
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+    font-style: italic;
+}
+.bg-green{
+    background-color: green;
+}
+
+.content{
+    position: relative;
+}
+.content img{
+    position: absolute;
+}
+.about{
+padding: 1rem 0 ;
+}
+footer{
+    text-align: center;
+}
+
+.skills{
+    font-size: 1rem;
+}
